@@ -1,0 +1,233 @@
+body {
+
+    font-family: 'Lato', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.container {
+
+    height: 450px;
+    background-color: #fff;
+    width: 900px;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.container div {
+
+    float: right;
+}
+
+.container .playerone {
+
+    width: 25%;
+    margin-right: 3%;
+    margin-top: 30px;
+}
+
+.container .playertwo {
+
+    width: 25%;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 30px;
+}
+
+.container .game {
+    
+    width: 43%;
+    text-align: center;
+    height: 300px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.container .game .top-row {
+
+    width: 100%;
+    height: 33.3%;
+    border-bottom: 1px solid;
+}
+
+.container .game .top-row div {
+
+    width: 33%;
+    border-left: 1px solid;
+    height: 100%;
+}
+
+.container .game .top-row div:nth-child(3) {
+
+    border-left: none;
+}
+
+.container .game .center-row {
+
+    width: 100%;
+    height: 33.3%;
+    border-bottom: 1px solid;
+}
+
+.container .game .center-row div {
+
+    width: 33%;
+    border-left: 1px solid;
+    height: 100%;
+}
+
+.container .game .center-row div:nth-child(3) {
+
+    border-left: none;
+}
+
+.container .game .bottom-row {
+
+    width: 100%;
+    height: 33.3%;
+}
+
+.container .game .bottom-row div {
+
+    width: 33%;
+    border-left: 1px solid;
+    height: 100%;
+}
+
+.container .game .bottom-row div:nth-child(3) {
+
+    border-left: none;
+}
+
+.container .game .top-row div:hover,
+.container .game .center-row div:hover,
+.container .game .bottom-row div:hover {
+
+    cursor: pointer;
+    background: #018b93d4;
+}
+
+.container .game .top-row div,
+.container .game .center-row div,
+.container .game .bottom-row div {
+
+    transition: .3s ease-in-out;
+}
+
+/* Scores */
+
+.container .playerone img {
+
+    display: block;
+}
+
+.container .playerone span {
+    
+    display: inline-block;
+    margin-top: 25px;
+    padding: 20px 30px;
+    background: #ed2424;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.container .playertwo img {
+
+    display: block;
+    margin-right: 120px;
+}
+
+.container .playertwo span {
+    
+    display: inline-block;
+    margin-top: 25px;
+    padding: 20px 30px;
+    background: #3382b0;
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* buttons */
+
+.buttons {
+
+    width: 300px;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+
+.buttons button {
+
+    color: #fff;
+    background: #ed2424;
+    border: none;
+    font-size: 17px;
+    padding: 10px 5px;
+    min-width: 130px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.buttons button:nth-child(1) {
+
+    margin-left: 5px;
+}
+
+.buttons button:nth-child(2) {
+    
+    margin-right: 5px;
+}
+
+.buttons button.disable {
+
+    color: gray;
+    cursor: not-allowed;
+}
+
+.buttons button.disable:hover {
+
+    background: #ed2424;
+}
+
+.container .playerone h2, .container .playertwo h2 {
+
+    transition: .3s ease-in-out;
+}
+
+.container .playerone img, .container .playertwo img {
+
+    transition: .3s ease-in-out;
+}
+
+.container .playerone h4 {
+
+    margin-right: 15px;
+    font-size: 22px;
+    color: green;
+    display: none;
+}
+
+.container .playertwo h4 {
+
+    margin-left: 15px;
+    font-size: 22px;
+    color: green;
+    display: none;
+}
+
+body h1 {
+
+    position: absolute;
+    top: -70px;
+    right: 600px;
+    color: rgb(230, 149, 0);
+    display: none;
+}

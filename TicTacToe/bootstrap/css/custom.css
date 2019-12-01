@@ -1,0 +1,543 @@
+.navbar-custom {
+
+    background-color: #007d77;
+
+    color:none;
+
+    border-radius:0;
+
+}
+
+
+
+.navbar-custom .navbar-nav > li > a {
+
+    color: #fff;
+
+}
+
+
+
+.language{
+
+	
+
+	margin-top:1px;
+
+	margin-right:20px;
+
+}
+
+
+
+.navbar-custom .navbar-nav > .active > a {
+
+    color: #ffffff;
+
+    background-color:transparent;
+
+}
+
+
+
+.navbar-custom .navbar-nav > li > a:hover,
+
+.navbar-custom .navbar-nav > li > a:focus,
+
+.navbar-custom .navbar-nav > .active > a:hover,
+
+.navbar-custom .navbar-nav > .active > a:focus,
+
+.navbar-custom .navbar-nav > .open >a {
+
+    text-decoration: none;
+
+    background-color: #00403d;
+
+}
+
+
+
+.navbar-custom .navbar-brand {
+
+    color:#FFFFFF;
+
+}
+
+.navbar-custom .navbar-toggle {
+
+    background-color:#eeeeee;
+
+}
+
+.navbar-custom .icon-bar {
+
+    background-color:#007d77;
+
+}
+
+
+
+::selection { background-color: #007d77; color: white; }
+
+	::-moz-selection { background-color: #007d77; color: white; }
+
+
+
+	body {
+
+		background-color: white;
+
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+
+		color: #4F5155;
+
+	}
+
+
+
+	a {
+
+		color: #003399;
+
+		background-color: transparent;
+
+		font-weight: normal;
+
+	}
+
+
+
+	h1 {
+
+		color: dark-gray;
+
+		background-color: transparent;
+
+		border-bottom: 1px solid #D0D0D0;
+
+		font-size: 26px;
+
+		font-weight: normal;
+
+		margin: 0 0 14px 0;
+
+		padding: 14px 15px 10px 15px;
+
+	}
+
+	
+
+	h3 {
+
+		color: #444444;
+
+		background-color: transparent;
+
+		border-bottom: 1px solid #D0D0D0;
+
+		font-size: 20px;
+
+		font-weight: normal;
+
+		margin: 0 0 14px 0;
+
+		padding: 14px 15px 10px 15px;
+
+	}
+
+
+
+
+
+	#body {
+
+		margin: 0 15px 0 15px;
+
+		
+
+	}
+
+
+
+	p.footer {
+
+		text-align: right;
+
+		font-size: 11px;
+
+		border-top: 1px solid #D0D0D0;
+
+		line-height: 32px;
+
+		padding: 0 10px 0 10px;
+
+		margin: 20px 0 0 0;
+
+	
+
+	}
+
+	#container {
+
+		margin: 10px;
+
+		border: 1px solid #D0D0D0;
+
+		box-shadow: 0 0 8px #D0D0D0;
+
+	}
+
+	
+
+	.card {
+
+		
+
+		color: dark-gray;
+
+	}
+
+	
+
+	body {font-family: Arial, Helvetica, sans-serif;}
+
+* {box-sizing: border-box}
+
+
+
+.error {color: #FF0000;}
+
+
+
+/* Full-width input fields */
+
+input.input[type=text], input.input[type=password] {
+
+    width: 100%;
+
+    padding: 15px;
+
+    margin: 5px 0 22px 0;
+
+    display: inline-block;
+
+    border: none;
+
+    background: #f1f1f1;
+	
+	color: black;
+
+}
+
+input[type=file] {
+	
+	color: black;
+	
+}
+
+
+
+input.input[type=text]:focus, input.input[type=password]:focus {
+
+    background-color: #ddd;
+
+    outline: none;
+
+	color: black;
+
+}
+
+
+
+hr {
+
+    border: 1px solid #f1f1f1;
+
+    margin-bottom: 25px;
+
+}
+
+
+
+/* Set a style for all buttons */
+
+button {
+
+    background-color: #007d77;
+
+    color: white;
+
+    padding: 14px 20px;
+
+    margin: 8px 0;
+
+    border: none;
+
+    cursor: pointer;
+
+    opacity: 0.9;
+
+}
+
+
+
+button.full {
+
+	
+
+	width: 100%;
+
+}
+
+
+
+button:hover {
+
+    opacity:1;
+
+}
+
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+
+    padding: 14px 20px;
+
+    background-color: #f44336;
+
+}
+
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.cancelbtn, .Advertisebtn {
+
+  float: left;
+
+  width: 50%;
+
+}
+
+
+
+/* Add padding to container elements */
+
+.container {
+
+    padding: 16px;
+
+}
+
+
+
+/* Clear floats */
+
+.clearfix::after {
+
+    content: "";
+
+    clear: both;
+
+    display: table;
+
+}
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+
+@media screen and (max-width: 300px) {
+
+    .cancelbtn, .signupbtn {
+
+       width: 100%;
+
+    }
+
+}
+
+.advertisement {
+
+	
+
+	color: white;
+
+}
+
+
+
+ .footer { 
+
+		font-size: 14px;
+
+		line-height: 32px;
+
+		padding: 0 10px 0 10px;
+
+		margin: 20px 0 0 0;
+
+		background-color:#007d77;
+
+	} 
+
+	
+
+	h2 {
+
+	
+
+	color: dark-gray;
+
+	}
+
+	
+
+	b {
+
+		
+
+		color: dark-gray;
+
+	}
+
+	
+
+	span.p {
+
+		
+
+		color: dark-gray;
+
+	}
+
+	
+
+.copy {
+
+	
+
+	color: #FFFFFF;
+
+}
+	
+	#p {
+
+		
+
+		color: #FFFFFF;
+
+	}
+
+	
+
+	
+
+.error p {
+
+		
+
+		color: #FF0000;
+
+	}
+
+	
+
+.error {
+
+		
+
+	color: #FF0000;
+
+}
+
+.succss {
+
+	background-color: Green;
+
+    color: white;
+
+}
+
+/*
+
+.ticket {
+
+	//background-color:#f1f1f1;
+
+	padding: 3px;
+
+}*/
+
+#myNavbar{
+
+  max-width:95%
+
+}
+
+.col-sm-pull-t{
+
+	right:17.5%;
+
+}
+
+.col-sm-pull-r{right:17.5%}.col-sm-pull-d{right:17.5%}
+
+.col-sm-pull-big_bos{right:17.5%}
+
+
+
+a {
+
+	color:#cca755;
+
+}
+
+
+
+a:hover{
+
+	
+
+	color: #ab790a;
+
+}
+
+
+
+
+
+.navbar-collapse {
+
+    background: #3CB371;
+
+}
+
+
+
+#lang {
+
+	
+
+	margin-top: 15px;
+
+}
+
+
+
+.signin {
+
+    
+
+    text-align: center;
+
+}
+
+/* Messages --------------------------------------------------------------------------------------------------------------------------------------------------- */
+#message {margin-bottom:10px; border:2px solid #333; font-size:18px; font-weight:bold; text-align:center;}
+#message .status_msg {margin:0; padding:5px; background-color:#DF7;}
+#message .error_msg {margin:0; padding:5px; background-color:#FAA;}
+
