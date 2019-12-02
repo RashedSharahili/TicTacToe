@@ -83,7 +83,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.center-left, .game div div.center-center, .game div div.center-right").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -91,7 +91,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.bottom-left, .game div div.bottom-center, .game div div.bottom-right").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -99,7 +99,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.top-left, .game div div.center-left, .game div div.bottom-left").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -107,7 +107,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.top-center, .game div div.center-center, .game div div.bottom-center").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -115,7 +115,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.top-right, .game div div.center-right, .game div div.bottom-right").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -123,7 +123,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.top-left, .game div div.center-center, .game div div.bottom-right").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -131,7 +131,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     } else if( $(".game div div.top-right, .game div div.center-center, .game div div.bottom-left").children(".o").length === 3) {
 
         console.log("Player two won");
@@ -139,7 +139,7 @@ function twowinner() {
         $(".disable").removeClass("disable");
         $(".again").prop("disabled", false);
         $(".container, .game div div").css("cursor","not-allowed");
-        $(".container .playerone h4").css("display","block");
+        $(".container .playertwo h4").css("display","block");
     }
 
     $(".container .playertwo .score-two").text(score_two);
@@ -165,6 +165,7 @@ function restart() {
 
     $(".again").prop("disabled", true);
     $(".container .playerone h4").css("display","none");
+    $(".container .playertwo h4").css("display","none");
     $("body h1").css("display","none");
 }
 
@@ -182,6 +183,7 @@ function playAgain() {
 
     $(".again").prop("disabled", true);
     $(".container .playerone h4").css("display","none");
+    $(".container .playertwo h4").css("display","none");
     $("body h1").css("display","none");
 }
 
@@ -225,6 +227,8 @@ $(function() {
 
             $(".disable").removeClass("disable");
             $(".again").prop("disabled", false);
+			$(".container").css("cursor","not-allowed");
+			$(".game div div").css("cursor","not-allowed");
         }
 
     });
